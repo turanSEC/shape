@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    width: 1024px;
+    height: 100%;
+}
+
+
+.shapes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.rectangle {
+    height: 200px;
+    width: 500px;
+    background-color: red;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 50px;
+
+
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid red;
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 50px;
+
+
+}
+
+
+.janina {
+    width: 200px;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid red;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 500px;
+}
+
+.janina2 {
+    height: 0;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 300px solid red;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 500px;
+}
+
+
+
+.flag {
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 500px;
+}
+
+.red {
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 180px;
+    margin-top: 30px;
+
+}
+
